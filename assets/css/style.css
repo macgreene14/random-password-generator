@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    line-height: 1.5;
+    gap: 0px;
+}
+
+body header {
+    width: 100%;
+}
+
+body h1 {
+    font-size: 5vw;
+}
+
+body p, body h2 {
+    font-size: 2.5vw;
+}
+
+#button {
+    padding: 0.5em;            
+}
+
+.buttonClass {
+    width: 100%;
+}
+
+.passwordClass {
+    border-style: dashed;
+    width: 75%;
+    padding: 15%;
+    margin: 2%;
+    font-size: larger;
+}
+
+.spaceClass {
+    width: 100%;
+    height: 50vh;
+}
+
+body footer {
+    position: fixed;
+    bottom: 0;
+    padding: 2%
+}
+
+/* todo add media query to resize elements for mobile device */
