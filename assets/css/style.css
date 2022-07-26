@@ -47,14 +47,6 @@ body p, body h2 {
 }
 
 
-
-body footer {
-    position: relative;
-    /* bottom: 0; */
-    padding: 2%;
-    width: 100%;
-}
-
 /* todo add media query to resize elements for mobile device */
 /* todo stylize user interface */
 
