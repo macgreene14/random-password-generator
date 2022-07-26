@@ -4,8 +4,10 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2.0;
     gap: 0px;
+    word-wrap: break-word;
+    background-color: forestgreen;
 }
 
 body header {
@@ -20,25 +22,29 @@ body p, body h2 {
     font-size: 2.5vw;
 }
 
-#button {
-    padding: 0.5em;            
-}
 
 .buttonClass {
     width: 100%;
+    font-size: 2vw; 
+}
+
+#button {
+    border-radius: 80px;    
+    padding: 1.5%;
+    margin: 1.5%;
 }
 
 .passwordClass {
     border-style: dashed;
-    width: 75%;
-    padding: 15%;
+    width: 65%;
+    padding: 7.5%;
     margin: 2%;
     font-size: larger;
 }
 
 .spaceClass {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
 }
 
 body footer {
@@ -48,3 +54,18 @@ body footer {
 }
 
 /* todo add media query to resize elements for mobile device */
+/* todo stylize user interface */
+
+/* Smartphones (portrait and landscape) ----------- */
+/* Source: https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+  /* Styles */
+  #button {
+    border-radius: 80px;    
+    padding: 4%;
+    margin: 4%;
+}
+}
