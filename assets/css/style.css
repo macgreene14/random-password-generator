@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     text-align: center;
     line-height: 2.0;
     gap: 0px;
@@ -12,28 +12,30 @@ body {
 
 body header {
     width: 100%;
-    height: 10%
 }
 
 body h1 {
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 body p, body h2 {
-    font-size: 3vw;
+    font-size: 2vw;
+    
 }
 
 
 .buttonClass {
     width: 100%;
-    font-size: 3vw; 
+    height: 1%;
+    flex:1 1 3000px;
 }
 
 #button {
     border-radius: 80px;    
     padding: 0.5%;
     margin: 0.5%;
-    min-height: 15%;
+    font-size: 2vw; 
+    /* min-height: 15%; */
 }
 
 .passwordClass {
@@ -41,21 +43,16 @@ body p, body h2 {
     padding: 7.5%;
     margin: 10%;
     font-size: larger;
-    flex: 1 0 25%;
-
+    flex: 3 1 0;
 }
 
-section {
-    width: 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
-} 
+
 
 body footer {
-    position: fixed;
-    bottom: 0;
-    padding: 2%
+    position: relative;
+    /* bottom: 0; */
+    padding: 2%;
+    width: 100%;
 }
 
 /* todo add media query to resize elements for mobile device */
